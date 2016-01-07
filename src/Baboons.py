@@ -20,7 +20,7 @@ def accumulatePoly(baboon1, baboon2, baboon3, values):
         values["nrOfPolyType3"] += 1
     if baboon1 == 2 and baboon2 == 2:
         values["nrOfPolyType1And2"] += 1
-    if baboon1 == 2 and baboon2 == 2:
+    if baboon1 == 2 and baboon3 == 2:
         values["nrOfPolyType1And3"] += 1
     if baboon2 == 2 and baboon3 == 2:
         values["nrOfPolyType2And3"] += 1
